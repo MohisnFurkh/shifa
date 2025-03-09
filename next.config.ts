@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/shifa",  // Ensure this matches your repo name
-  assetPrefix: "/shifa",
+  basePath: "/Shifa-AI",  // Ensure this matches your repo name
+  assetPrefix: "/Shifa-AI",
 };
 
 export default nextConfig;
