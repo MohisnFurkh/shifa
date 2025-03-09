@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Enables static export
+  output: "export",
   images: {
-    unoptimized: true, // Needed for static export
+    unoptimized: true,
   },
-  basePath: "/Shifa-AI", // Replace 'shifa' with your GitHub repo name
-  assetPrefix: "/Shifa-AI", // Ensures assets load correctly
+  basePath: "/shifa",  // Ensure this matches your repo name
+  assetPrefix: "/shifa",
 };
 
 export default nextConfig;
